@@ -1,16 +1,3 @@
-// ==============================
-//=================== loading
-// ==============================
-
-window.addEventListener("load", () => {
-    setTimeout(() => {
-        document.querySelector(".loading").classList.add("reload");
-        document.body.classList.add("reload");
-    },3000)
-});
-
-
-
 // ===============================================
 //=================== navbar menu active click
 // ===============================================
