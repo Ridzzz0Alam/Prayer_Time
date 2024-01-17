@@ -1,0 +1,75 @@
+.section-prayer-times .row{
+    flex-direction: column;
+    justify-content: start;
+}
+
+.section-prayer-times .date-day-years {
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 0.1px red;
+    background-color: transparent;
+    box-shadow: 
+    0 0 5px 1px rgb(220, 166, 18),
+    0px 0px 5px 1px rgb(236, 207, 207);
+    border-radius: 10px;
+    background-image: linear-gradient(150deg, #c14141 50% 50%, #c38615 50% 50%, transparent 100%);
+    animation: choice linear 2s infinite;
+}
+
+.section-prayer-times .row h1 {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 10px;
+    background-image: linear-gradient(150deg, #c14141 50% 50%, #c38615 50% 50%, transparent 100%);
+    background-size: 500%;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 0.1px red;
+    background-color: transparent;
+    box-shadow: 
+    0 0 5px 1px rgb(220, 166, 18),
+    0px 0px 5px 1px rgb(236, 207, 207);
+    border-radius: 10px;
+    animation: choice linear 2s infinite;
+}
+
+.section-prayer-times .prayer-times {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 
+    0 0 5px 1px rgb(220, 166, 18),
+    0px 0px 5px 1px rgb(236, 207, 207);
+}
+.section-prayer-times .prayer-times ul {
+    padding: 10px 30px;
+    margin: 0 30px;
+}
+.section-prayer-times .prayer-times li {
+    padding: 5px 20px;
+    border-top: 1px solid var(--gold-crayola);
+    font-size: 22px;
+    font-weight: bold;
+}
+.section-prayer-times .prayer-times .prayer li{
+    color: var(--gold-crayola);
+}
+.section-prayer-times .prayer-times .times li{
+    color: aqua;
+}
+.section-prayer-times .prayer-times .times li:first-child,
+.section-prayer-times .prayer-times .prayer li:first-child{
+    border-top: none;
+}
