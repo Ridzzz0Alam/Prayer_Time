@@ -242,12 +242,8 @@ function getPostsAdhan(e, t) {
                             <li>${dateData.timings.Sunrise.split(' ')[0]}</li>
                             <li>${dateData.timings.Dhuhr.split(' ')[0]}</li>
                             <li>${dateData.timings.Asr.split(' ')[0]}</li>
-                            <li>${dateData.timings.Sunset.split(' ')[0]}</li>
                             <li>${dateData.timings.Maghrib.split(' ')[0]}</li>
-                            <li>${dateData.timings.Isha.split(' ')[0]}</li>
-                            <li>${dateData.timings.Firstthird.split(' ')[0]}</li>
-                            <li>${dateData.timings.Midnight.split(' ')[0]}</li>
-                            <li>${dateData.timings.Lastthird.split(' ')[0]}</li>`;
+                            <li>${dateData.timings.Isha.split(' ')[0]}</li>`;
                             
                             document.querySelector(".times").innerHTML = content;
                             
@@ -283,12 +279,8 @@ function getPostsAdhan(e, t) {
                     <li>${prayerData.timings.Sunrise.split(' ')[0]}</li>
                     <li>${prayerData.timings.Dhuhr.split(' ')[0]}</li>
                     <li>${prayerData.timings.Asr.split(' ')[0]}</li>
-                    <li>${prayerData.timings.Sunset.split(' ')[0]}</li>
                     <li>${prayerData.timings.Maghrib.split(' ')[0]}</li>
-                    <li>${prayerData.timings.Isha.split(' ')[0]}</li>
-                    <li>${prayerData.timings.Firstthird.split(' ')[0]}</li>
-                    <li>${prayerData.timings.Midnight.split(' ')[0]}</li>
-                    <li>${prayerData.timings.Lastthird.split(' ')[0]}</li>`;
+                    <li>${prayerData.timings.Isha.split(' ')[0]}</li>`;
                     
                     document.querySelector(".times").innerHTML = content;
                     
