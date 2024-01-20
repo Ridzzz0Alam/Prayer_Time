@@ -2,6 +2,7 @@
 //=================== navbar menu active click
 // ===============================================
 
+
 let menu = document.querySelector(".menu");
 let btnOpen = document.querySelector(".open-menu");
 let btnClose = document.querySelector(".close-menu");
@@ -210,7 +211,8 @@ function getTime(is2, cty) {
         country.classList.add("active");
     }
     choiceCity.textContent += ":  " + cty;
-    getPostsAdhan(is2, cty)
+    //getPostsAdhan(is2, cty)
+    getPostsAdhan("FINALND", "LAPPEENRANTA")
 }
 
 
@@ -389,6 +391,7 @@ input[1].addEventListener("focus", () => {
 
 
 const searchCountry = () => {
+    
     const searchBox =  document.getElementById("search-country").value.toUpperCase();
     const searchInBox = document.querySelectorAll(".country-item span");
     for (let text of searchInBox) {
@@ -410,6 +413,7 @@ const searchCountry = () => {
 
 
 const searchCity = () => {
+    
     const searchBox = document.getElementById("search-city").value.toUpperCase();
     const searchInBox = document.querySelectorAll(".city-item span");
     const cityItem = document.querySelector(".city-item");
